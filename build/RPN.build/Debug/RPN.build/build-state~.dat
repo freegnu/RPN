@@ -1,0 +1,51 @@
+TRPN
+v7
+r1
+
+N/Users/Shared/src/RPN/MainWindow.xib
+c00000000502F38C70000000000004D72
+t1345272007
+s19826
+
+N/Users/Shared/src/RPN/RPNViewController.xib
+c0000000050384E2A000000000000B1A1
+t1345867306
+s45473
+
+N/Users/Shared/src/RPN/build/Debug/RPN.app
+t2
+s0
+
+N/Users/Shared/src/RPN/build/Debug/RPN.app/Contents/Info.plist
+t2
+s0
+
+N/Users/Shared/src/RPN/build/Debug/RPN.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/Shared/src/RPN/build/Debug/RPN.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/Shared/src/RPN/build/Debug/RPN.app/Contents/Resources/RPNViewController.nib
+t2
+s0
+
+NRPN-Info.plist
+c00000000502F1962000000000000038D
+t1345263970
+s909
+
+CCompileXIB /Users/Shared/src/RPN/MainWindow.xib
+r0
+
+CCompileXIB /Users/Shared/src/RPN/RPNViewController.xib
+r0
+
+CProcessInfoPlistFile /Users/Shared/src/RPN/build/Debug/RPN.app/Contents/Info.plist RPN-Info.plist
+r0
+
+CTouch /Users/Shared/src/RPN/build/Debug/RPN.app
+r0
+

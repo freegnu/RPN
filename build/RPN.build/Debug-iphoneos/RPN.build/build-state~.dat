@@ -1,0 +1,341 @@
+TRPN
+v7
+r0
+t367501270.555013
+cCheck dependencies
+cProcessInfoPlistFile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist RPN-Info.plist
+cCompileXIB /Users/Shared/src/RPN/MainWindow.xib
+cCompileXIB /Users/Shared/src/RPN/RPNViewController.xib
+cProcessPCH /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch RPN_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o /Users/Shared/src/RPN/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o /Users/Shared/src/RPN/Classes/RPNAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o /Users/Shared/src/RPN/Classes/RPNViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o /Users/Shared/src/RPN/Classes/RPNStack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN normal i386
+cGenerateDSYMFile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+cTouch /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/Shared/src/RPN/Classes/RPNAppDelegate.h
+c00000000502F196200000000000001C2
+t1345263970
+s450
+i<UIKit/UIKit.h>
+
+N/Users/Shared/src/RPN/Classes/RPNAppDelegate.m
+c00000000502F1962000000000000028A
+t1345263970
+s650
+i"RPNAppDelegate.h"
+i"RPNViewController.h"
+
+N/Users/Shared/src/RPN/Classes/RPNStack.h
+c0000000050376158000000000000018F
+t1345806680
+s399
+i<Foundation/Foundation.h>
+
+N/Users/Shared/src/RPN/Classes/RPNStack.m
+c000000005037684E000000000000050D
+t1345808462
+s1293
+i"RPNStack.h"
+
+N/Users/Shared/src/RPN/Classes/RPNViewController.h
+c0000000050375F740000000000000210
+t1345806196
+s528
+i<UIKit/UIKit.h>
+
+N/Users/Shared/src/RPN/Classes/RPNViewController.m
+c000000005037603B0000000000000339
+t1345806395
+s825
+i"RPNViewController.h"
+i"RPNStack.h"
+
+N/Users/Shared/src/RPN/MainWindow.xib
+c00000000502F38C70000000000004D72
+t1345272007
+s19826
+
+N/Users/Shared/src/RPN/RPNViewController.xib
+c000000005031CEEC000000000000B1A1
+t1345441516
+s45473
+
+N/Users/Shared/src/RPN/RPN_Prefix.pch
+c00000000502F196200000000000000AF
+t1345263970
+s175
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app
+t1345808464
+s238
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM
+t1345808464
+s102
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist
+t1345271734
+s577
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/MainWindow.nib
+t1345272038
+s1500
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/PkgInfo
+t1345271734
+s8
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+t1345808464
+s20796
+
+N/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPNViewController.nib
+t1345441521
+s6909
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPN.LinkFileList
+c000000005034D56D000000000000019F
+t1345639789
+s415
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o
+t1345806205
+s38172
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o
+t1345808464
+s10776
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o
+t1345806701
+s33208
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o
+t1345271737
+s5916
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNAppDelegate.plist
+t1345267320
+s275
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNViewController.plist
+t1345267320
+s275
+
+N/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/main.plist
+t1345267320
+s275
+
+N/Users/Shared/src/RPN/main.m
+c00000000502F19620000000000000160
+t1345263970
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch.pth
+t1345267319
+s1727720
+
+N/var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch
+t1345271736
+s8749240
+
+NRPN-Info.plist
+c00000000502F1962000000000000038D
+t1345263970
+s909
+
+CAnalyze /Users/Shared/src/RPN/Classes/RPNAppDelegate.m
+s366960120.709465
+e366960120.802192
+r1
+xAnalyze
+x/Users/Shared/src/RPN/Classes/RPNAppDelegate.m
+lSLF07#2@54"Analyze /Users/Shared/src/RPN/Classes/RPNAppDelegate.m366960120#366960120#0(0"0(0#0#46"/Users/Shared/src/RPN/Classes/RPNAppDelegate.m2418663920#1725"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch --analyze /Users/Shared/src/RPN/Classes/RPNAppDelegate.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNAppDelegate.plist0#
+
+CAnalyze /Users/Shared/src/RPN/Classes/RPNViewController.m
+s366960120.793700
+e366960120.882675
+r1
+xAnalyze
+x/Users/Shared/src/RPN/Classes/RPNViewController.m
+lSLF07#2@57"Analyze /Users/Shared/src/RPN/Classes/RPNViewController.m366960120#366960120#0(0"0(0#0#49"/Users/Shared/src/RPN/Classes/RPNViewController.m2418663920#1731"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch --analyze /Users/Shared/src/RPN/Classes/RPNViewController.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNViewController.plist0#
+
+CAnalyze /Users/Shared/src/RPN/main.m
+s366960120.596672
+e366960120.709271
+r1
+xAnalyze
+x/Users/Shared/src/RPN/main.m
+lSLF07#2@36"Analyze /Users/Shared/src/RPN/main.m366960120#366960120#0(0"0(0#0#28"/Users/Shared/src/RPN/main.m2418663920#1697"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch --analyze /Users/Shared/src/RPN/main.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies367501270#367501270#0(0"0(0#1#0"2418663920#0"0#
+
+CCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o /Users/Shared/src/RPN/Classes/RPNAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s367499005.578898
+e367499005.997594
+r1
+xCompileC
+xbuild/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o
+x/Users/Shared/src/RPN/Classes/RPNAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Shared/src/RPN/Classes/RPNAppDelegate.m367499005#367499005#0(0"0(0#0#46"/Users/Shared/src/RPN/Classes/RPNAppDelegate.m4872912#1716"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch -c /Users/Shared/src/RPN/Classes/RPNAppDelegate.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o0#
+
+CCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o /Users/Shared/src/RPN/Classes/RPNStack.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s367501264.123116
+e367501264.491896
+r1
+xCompileC
+xbuild/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o
+x/Users/Shared/src/RPN/Classes/RPNStack.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/Shared/src/RPN/Classes/RPNStack.m367501264#367501264#0(0"0(0#0#40"/Users/Shared/src/RPN/Classes/RPNStack.m2418663920#1704"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch -c /Users/Shared/src/RPN/Classes/RPNStack.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o0#
+
+CCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o /Users/Shared/src/RPN/Classes/RPNViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s367499500.863712
+e367499501.504072
+r1
+xCompileC
+xbuild/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o
+x/Users/Shared/src/RPN/Classes/RPNViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/Shared/src/RPN/Classes/RPNViewController.m367499500#367499501#0(0"0(0#0#49"/Users/Shared/src/RPN/Classes/RPNViewController.m2418663920#1722"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch -c /Users/Shared/src/RPN/Classes/RPNViewController.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o0#
+
+CCompileC build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o /Users/Shared/src/RPN/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s366964537.009678
+e366964537.175928
+r1
+xCompileC
+xbuild/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o
+x/Users/Shared/src/RPN/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Compile /Users/Shared/src/RPN/main.m366964537#366964537#0(0"0(0#0#28"/Users/Shared/src/RPN/main.m2418663920#1688"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -include /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch -c /Users/Shared/src/RPN/main.m -o /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Shared/src/RPN/MainWindow.xib
+s366964836.605935
+e366964838.787836
+r1
+xCompileXIB
+x/Users/Shared/src/RPN/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib366964836#366964838#0(0"0(0#0#36"/Users/Shared/src/RPN/MainWindow.xib4386904#521"    cd /Users/Shared/src/RPN    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/MainWindow.nib /Users/Shared/src/RPN/MainWindow.xib0#
+
+CCompileXIB /Users/Shared/src/RPN/RPNViewController.xib
+s367134320.582843
+e367134321.520444
+r1
+xCompileXIB
+x/Users/Shared/src/RPN/RPNViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@32"CompileXIB RPNViewController.xib367134320#367134321#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#43"/Users/Shared/src/RPN/RPNViewController.xib2418663920#535"    cd /Users/Shared/src/RPN    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPNViewController.nib /Users/Shared/src/RPN/RPNViewController.xib0#
+
+CGenerateDSYMFile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+s367501264.567355
+e367501264.631808
+r1
+xGenerateDSYMFile
+x/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM
+x/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/RPN.app.dSYM build/Debug-iphonesimulator/RPN.app/RPN367501264#367501264#0(0"0(0#0#61"/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN2418663920#414"    cd /Users/Shared/src/RPN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/dsymutil /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN -o /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM0#
+
+CLd /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN normal i386
+s367501264.492087
+e367501264.567126
+r1
+xLd
+x/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+xnormal
+xi386
+lSLF07#2@66"Link /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN367501264#367501264#0(0"0(0#0#0"2418663920#853"    cd /Users/Shared/src/RPN    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/Shared/src/RPN/build/Debug-iphonesimulator -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -filelist /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPN.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN0#
+
+CProcessInfoPlistFile /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist RPN-Info.plist
+s366964534.757651
+e366964534.763888
+r1
+xProcessInfoPlistFile
+x/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist
+xRPN-Info.plist
+lSLF07#2@22"Process RPN-Info.plist366964534#366964534#0(0"0(0#0#36"/Users/Shared/src/RPN/RPN-Info.plist2418663920#510"    cd /Users/Shared/src/RPN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    builtin-infoPlistUtility RPN-Info.plist -genpkginfo /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist0#
+
+CProcessPCH /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch.pth RPN_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s366960119.095562
+e366960119.732530
+r1
+xProcessPCH
+x/var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch.pth
+xRPN_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@25"Precompile RPN_Prefix.pch366960119#366960119#0(0"0(0#0#36"/Users/Shared/src/RPN/RPN_Prefix.pch2418663920#1592"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -c /Users/Shared/src/RPN/RPN_Prefix.pch -o /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch RPN_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s366964535.672781
+e366964537.009334
+r1
+xProcessPCH
+x/var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch
+xRPN_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile RPN_Prefix.pch366964535#366964537#0(0"0(0#0#36"/Users/Shared/src/RPN/RPN_Prefix.pch2418663920#1601"    cd /Users/Shared/src/RPN    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-generated-files.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-own-target-headers.hmap -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-all-target-headers.hmap -iquote /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/RPN-project-headers.hmap -F/Users/Shared/src/RPN/build/Debug-iphonesimulator -I/Users/Shared/src/RPN/build/Debug-iphonesimulator/include -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources/i386 -I/Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/DerivedSources -c /Users/Shared/src/RPN/RPN_Prefix.pch -o /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch0#
+
+CTouch /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app
+s367501264.631990
+e367501264.642168
+r1
+xTouch
+x/Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app
+lSLF07#2@63"Touch /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app367501264#367501264#0(0"0(0#0#0"2418663920#334"    cd /Users/Shared/src/RPN    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/sbin:/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin"    /usr/bin/touch -c /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app0#
+

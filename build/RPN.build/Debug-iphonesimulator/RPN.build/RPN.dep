@@ -1,0 +1,17 @@
+88530cb69fbdc7b914953dc0948733a0 20a667c1e172a9842cabd86d468e22a1 ffffffffffffffffffffffffffffffff 12304 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNStack.o
+88530cb682dc850c14953dc094873d25 ab99b8be5e9ab4a2e1ff0b5b5a226886 ffffffffffffffffffffffffffffffff 43568 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNViewController.o
+88530cb682de5e6314953dc09487221c 7dc8938207e2450e5697b8f682d04e39 ffffffffffffffffffffffffffffffff 48904 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/RPNAppDelegate.o
+88530cb6cf900dc114953dc094872885 2b430bd5b2bf1a63005f3c2fe11a87bf ffffffffffffffffffffffffffffffff 6276 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/Objects-normal/i386/main.o
+00000000000000000000000000000000 b253efb602b7962d0c7a5020766c259c ffffffffffffffffffffffffffffffff 102 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app.dSYM
+6b2f7f701f808129f29e703961bf7bd7 1a4f34676cd6e9e9373f5a7d8684f8db ffffffffffffffffffffffffffffffff 238 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app
+ddb447285a90de0e9b9c57ef7f10ad1d 637713242f639971ea4f03acdfddbdec ffffffffffffffffffffffffffffffff 22020 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPN
+00000000502dc36e0000000000001e68 88530cb682c4c27914953dc094873d2c ffffffffffffffffffffffffffffffff 10626972 /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-hfuapsbezwzzahejedhnyinfwexo/RPN_Prefix.pch.gch
+0000000050384e2a000000000000b1a1 01aea499fc17d025ca981b016c947896 ffffffffffffffffffffffffffffffff 7842 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/RPNViewController.nib
+00000000502f38c70000000000004d72 d4428fe59673609e49d53f7bade6ef63 ffffffffffffffffffffffffffffffff 1671 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/MainWindow.nib
+00000000000000000000000000000000 40f57988133bda61d1079561191e59e4 ffffffffffffffffffffffffffffffff 8 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/PkgInfo
+00000000000000000000000000000000 40f57988133bda61d1079561191e59e4 ffffffffffffffffffffffffffffffff 575 /Users/Shared/src/RPN/build/Debug-iphonesimulator/RPN.app/Info.plist
+00000000502f35ae0000000000001472 2bd5bce5b7b965971b08cd89c8ce1e7c ffffffffffffffffffffffffffffffff 8749240 /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-ffnrprnjickrilffjlgwzwneatbi/RPN_Prefix.pch.gch
+ffffffffffffffffffffffffffffffff 94355db1cbf272660ac1f34976028fc6 ffffffffffffffffffffffffffffffff 275 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNViewController.plist
+ffffffffffffffffffffffffffffffff 8aa7164cc6fbe44aef54ec73d0b23592 ffffffffffffffffffffffffffffffff 275 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/RPNAppDelegate.plist
+399919bbbc4eb1fc0159820281620112 1a859267bf37ada5323f6634346a03e1 ffffffffffffffffffffffffffffffff 275 /Users/Shared/src/RPN/build/RPN.build/Debug-iphonesimulator/RPN.build/StaticAnalyzer/normal/i386/main.plist
+00000000502f35ae0000000000001472 399919bbf765fc520159820281621388 ffffffffffffffffffffffffffffffff 1727720 /var/folders/h8/h8TmDUXIF3y0vHJsIcWQ2E++8qQ/-Caches-/com.apple.Xcode.11111/SharedPrecompiledHeaders/RPN_Prefix-eokqdvwstrjxkvedhknbchdbsppe/RPN_Prefix.pch.pth
