@@ -9,11 +9,10 @@
 #import <Foundation/Foundation.h>
 
 
-@interface RPNStack : NSObject {
-	NSMutableArray *stack;
-}
-@property (retain,nonatomic) NSMutableArray *stack;
--(void)push:(NSNumber *)value;
--(NSNumber *)pop;
--(NSNumber *)operation:(NSString *)operator operand:(NSNumber *)value;
+@interface RPNStack:NSObject
+@property(retain,nonatomic)NSMutableArray *stack;
+-(void)push:(id)value;
+-(id)pop:(id)program;
+-(id)calculate:(id)program;
+-(id)getProgram;
 @end

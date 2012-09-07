@@ -8,36 +8,43 @@
 
 #import "RPNStack.h"
 @implementation RPNStack
-@synthesize stack;
--(NSMutableArray *)stack{
-	if(!stack)	return stack=[[NSMutableArray alloc] init];
-	return stack;
+@synthesize stack=_stack;
+-(id)stack{
+	if(!_stack)
+    return _stack=[[NSMutableArray alloc] init];
+	return _stack;
 }
--(void)push:(NSNumber *)value{
+-(void)push:(id)value{
 	[self.stack addObject:value];
 }
--(NSNumber *)pop{
-	NSNumber *last=[self.stack lastObject];
-	if([self.stack count]) [self.stack removeLastObject];
+-(id)pop:(id)program{
+	id last=[program lastObject];
+	if([program count])
+    [program removeLastObject];
 	return last;
 }
--(NSNumber *)operation:(NSString *)operator operand:(NSNumber *)value{
-	NSNumber *last;
-	//if ([self.stack count]){
-		if([operator isEqualToString:@"+"]){
-			last=[[NSNumber alloc] initWithDouble:[value doubleValue]+[[self pop] doubleValue]];
-		} else if([operator isEqualToString:@"-"]){
-			last=[[NSNumber alloc] initWithDouble:[value doubleValue]-[[self pop] doubleValue]];
-		} else if([operator isEqualToString:@"*"]){
-			last=[[NSNumber alloc] initWithDouble:[value doubleValue]*[[self pop] doubleValue]];
-		} else if([operator isEqualToString:@"/"]){
-			last=[[NSNumber alloc] initWithDouble:[value doubleValue]/[[self pop] doubleValue]];
-		}
-	//}
-	else if([operator isEqualToString:@"PUSH"]){
-		[self.stack addObject:value];
-		last=[[NSNumber alloc] initWithDouble:(double)0];
-	}
-	return last;
+-(id)calculate:(id)program{
+  NSMutableArray *values;
+  if([program isKindOfClass:[NSNumber class]]){
+    return values;
+  }else if([program isKindOfClass:[NSArray class]]){
+    values = [program mutableCopy];
+  }
+	id last = [self pop:values];
+	if([last isKindOfClass:[NSString class]]&&[values count]){
+    if([last isEqualToString:@"+"]){
+      last=[[NSNumber alloc] initWithDouble:[[self calculate:values] doubleValue]+[[self calculate:values] doubleValue]];
+    }else if([last isEqualToString:@"-"]){
+      last=[[NSNumber alloc] initWithDouble:(-[[self calculate:values] doubleValue])+[[self calculate:values] doubleValue]];
+    }else if([last isEqualToString:@"*"]){
+      last=[[NSNumber alloc] initWithDouble:[[self calculate:values] doubleValue]*[[self calculate:values] doubleValue]];
+    }else if([last isEqualToString:@"/"]){
+      last=[[NSNumber alloc] initWithDouble:(1/[[self calculate:values] doubleValue])*[[self calculate:values] doubleValue]];
+    }
+  }
+  return last;
+}
+-(id)getProgram{
+  return [self.stack copy];
 }
 @end

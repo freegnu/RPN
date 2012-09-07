@@ -8,22 +8,53 @@
 
 #import "RPNViewController.h"
 #import "RPNStack.h"
+@interface RPNViewController()
+@property (retain,nonatomic) NSNumber *value;
+@property (retain,nonatomic) RPNStack *stack;
+@end
 @implementation RPNViewController
-@synthesize display,value,stack;
+@synthesize display=_display,value=_value,stack=_stack;
 -(NSNumber *)value{
-	if(!value) return value=[[NSNumber alloc] initWithDouble:(double)0];
-	return value;
+	if(!_value)
+    return _value=[[NSNumber alloc] initWithDouble:(double)0];
+	return _value;
+}
+-(void)setValue:(NSNumber *)value{
+  _value=value;
+  self.display.text=[value stringValue];
 }
 -(RPNStack *)stack{
-	if(!stack) return stack=[[RPNStack alloc] init];
-	return stack;
+	if(!_stack)
+    return _stack=[[RPNStack alloc] init];
+	return _stack;
 }
 -(IBAction)digitPressed:(UIButton *)sender{
 	self.value=[[NSNumber alloc] initWithDouble:([self.value doubleValue]*10)+[sender.currentTitle integerValue]];
-	self.display.text=[self.value stringValue];
+}
+-(IBAction)delPressed:(UIButton *)sender{
+  self.value=[[NSNumber alloc] initWithDouble:[self.value doubleValue]/(double)10 ];
+}
+-(IBAction)clearPressed:(UIButton *)sender{
+  self.value=[[NSNumber alloc] initWithDouble:(double)0];
+}
+-(IBAction)allClearPressed:(UIButton *)sender{
+  self.stack=[[RPNStack alloc] init];
+}
+-(IBAction)pushPressed:(UIButton *)sender{
+  [self.stack push:self.value];
+  self.value=[[NSNumber alloc] initWithDouble:(double)0];
+}
+-(IBAction)popPressed:(UIButton *)sender{
+  self.value=[self.stack pop:[self.stack getProgram]];
+}
+-(IBAction)swapPressed:(UIButton *)sender{
+  NSNumber *value=[self.stack pop:[self.stack getProgram]];
+  [self.stack push:self.value];
+  self.value=value;
 }
 -(IBAction)operatorPressed:(UIButton *)sender{
-	self.value=[self.stack operation:sender.currentTitle operand:self.value];
-	self.display.text=[self.value stringValue];
+  [self.stack push:self.value];
+  [self.stack push:sender.currentTitle];
+	self.value=[self.stack calculate:[self.stack getProgram]];
 }
 @end
