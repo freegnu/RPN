@@ -1,4 +1,4 @@
-//
+﻿//
 //  RPNStack.m
 //  RPN
 //
@@ -46,5 +46,15 @@
 }
 -(id)getProgram{
   return [self.stack copy];
+}
+-(id)setProgram:(id)state{
+  id item'
+  id program=(id)[state mutableCopy];
+  if(program){
+    while(item=[[program lastObject]){
+      [program removeLastObject];
+      [self push:item];
+    }
+  }
 }
 @end

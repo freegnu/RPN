@@ -15,4 +15,5 @@
 -(id)pop:(id)program;
 -(id)calculate:(id)program;
 -(id)getProgram;
+-(id)setProgram(id)state;
 @end
